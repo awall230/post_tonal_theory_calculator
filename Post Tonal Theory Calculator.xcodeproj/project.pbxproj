@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB317EA71B59630200F5379A /* ANWPCSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BB317EA61B59630200F5379A /* ANWPCSet.m */; };
+		BB71656A1B584E1400BF5D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7165691B584E1400BF5D64 /* main.m */; };
+		BB71656D1B584E1400BF5D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71656C1B584E1400BF5D64 /* AppDelegate.m */; };
+		BB71656F1B584E1400BF5D64 /* Post Tonal Theory Calculator-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = BB71656E1B584E1400BF5D64 /* Post Tonal Theory Calculator-Prefix.pch */; };
+		BB7165711B584E1400BF5D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7165701B584E1400BF5D64 /* Images.xcassets */; };
+		BB7165741B584E1400BF5D64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7165721B584E1400BF5D64 /* LaunchScreen.xib */; };
+		BB7165801B584E1400BF5D64 /* Post_Tonal_Theory_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71657F1B584E1400BF5D64 /* Post_Tonal_Theory_CalculatorTests.m */; };
+		BB71658B1B584F0C00BF5D64 /* ANWClockFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71658A1B584F0C00BF5D64 /* ANWClockFaceView.m */; };
+		BB71658E1B587AFA00BF5D64 /* ANWSetCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71658D1B587AFA00BF5D64 /* ANWSetCalculatorViewController.m */; };
+		BB7165911B58833100BF5D64 /* ANWPitchClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7165901B58833100BF5D64 /* ANWPitchClassView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB71657A1B584E1400BF5D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB71655C1B584E1400BF5D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7165631B584E1400BF5D64;
+			remoteInfo = "Post Tonal Theory Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB317EA51B59630200F5379A /* ANWPCSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWPCSet.h; sourceTree = "<group>"; };
+		BB317EA61B59630200F5379A /* ANWPCSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWPCSet.m; sourceTree = "<group>"; };
+		BB7165641B584E1400BF5D64 /* Post Tonal Theory Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Post Tonal Theory Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7165681B584E1400BF5D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7165691B584E1400BF5D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB71656B1B584E1400BF5D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB71656C1B584E1400BF5D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB71656E1B584E1400BF5D64 /* Post Tonal Theory Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Post Tonal Theory Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		BB7165701B584E1400BF5D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB7165731B584E1400BF5D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB7165791B584E1400BF5D64 /* Post Tonal Theory CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Post Tonal Theory CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB71657E1B584E1400BF5D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB71657F1B584E1400BF5D64 /* Post_Tonal_Theory_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post_Tonal_Theory_CalculatorTests.m; sourceTree = "<group>"; };
+		BB7165891B584F0C00BF5D64 /* ANWClockFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWClockFaceView.h; sourceTree = "<group>"; };
+		BB71658A1B584F0C00BF5D64 /* ANWClockFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWClockFaceView.m; sourceTree = "<group>"; };
+		BB71658C1B587AFA00BF5D64 /* ANWSetCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWSetCalculatorViewController.h; sourceTree = "<group>"; };
+		BB71658D1B587AFA00BF5D64 /* ANWSetCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWSetCalculatorViewController.m; sourceTree = "<group>"; };
+		BB71658F1B58833100BF5D64 /* ANWPitchClassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWPitchClassView.h; sourceTree = "<group>"; };
+		BB7165901B58833100BF5D64 /* ANWPitchClassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWPitchClassView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7165611B584E1400BF5D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7165761B584E1400BF5D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB71655B1B584E1400BF5D64 = {
+			isa = PBXGroup;
+			children = (
+				BB7165661B584E1400BF5D64 /* Post Tonal Theory Calculator */,
+				BB71657C1B584E1400BF5D64 /* Post Tonal Theory CalculatorTests */,
+				BB7165651B584E1400BF5D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7165651B584E1400BF5D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7165641B584E1400BF5D64 /* Post Tonal Theory Calculator.app */,
+				BB7165791B584E1400BF5D64 /* Post Tonal Theory CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7165661B584E1400BF5D64 /* Post Tonal Theory Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BB71656B1B584E1400BF5D64 /* AppDelegate.h */,
+				BB71656C1B584E1400BF5D64 /* AppDelegate.m */,
+				BB7165891B584F0C00BF5D64 /* ANWClockFaceView.h */,
+				BB71658A1B584F0C00BF5D64 /* ANWClockFaceView.m */,
+				BB317EA51B59630200F5379A /* ANWPCSet.h */,
+				BB317EA61B59630200F5379A /* ANWPCSet.m */,
+				BB71658F1B58833100BF5D64 /* ANWPitchClassView.h */,
+				BB7165901B58833100BF5D64 /* ANWPitchClassView.m */,
+				BB71658C1B587AFA00BF5D64 /* ANWSetCalculatorViewController.h */,
+				BB71658D1B587AFA00BF5D64 /* ANWSetCalculatorViewController.m */,
+				BB71656E1B584E1400BF5D64 /* Post Tonal Theory Calculator-Prefix.pch */,
+				BB7165701B584E1400BF5D64 /* Images.xcassets */,
+				BB7165721B584E1400BF5D64 /* LaunchScreen.xib */,
+				BB7165671B584E1400BF5D64 /* Supporting Files */,
+			);
+			path = "Post Tonal Theory Calculator";
+			sourceTree = "<group>";
+		};
+		BB7165671B584E1400BF5D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7165681B584E1400BF5D64 /* Info.plist */,
+				BB7165691B584E1400BF5D64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB71657C1B584E1400BF5D64 /* Post Tonal Theory CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB71657F1B584E1400BF5D64 /* Post_Tonal_Theory_CalculatorTests.m */,
+				BB71657D1B584E1400BF5D64 /* Supporting Files */,
+			);
+			path = "Post Tonal Theory CalculatorTests";
+			sourceTree = "<group>";
+		};
+		BB71657D1B584E1400BF5D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB71657E1B584E1400BF5D64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7165631B584E1400BF5D64 /* Post Tonal Theory Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7165831B584E1400BF5D64 /* Build configuration list for PBXNativeTarget "Post Tonal Theory Calculator" */;
+			buildPhases = (
+				BB7165601B584E1400BF5D64 /* Sources */,
+				BB7165611B584E1400BF5D64 /* Frameworks */,
+				BB7165621B584E1400BF5D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Post Tonal Theory Calculator";
+			productName = "Post Tonal Theory Calculator";
+			productReference = BB7165641B584E1400BF5D64 /* Post Tonal Theory Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB7165781B584E1400BF5D64 /* Post Tonal Theory CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7165861B584E1400BF5D64 /* Build configuration list for PBXNativeTarget "Post Tonal Theory CalculatorTests" */;
+			buildPhases = (
+				BB7165751B584E1400BF5D64 /* Sources */,
+				BB7165761B584E1400BF5D64 /* Frameworks */,
+				BB7165771B584E1400BF5D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB71657B1B584E1400BF5D64 /* PBXTargetDependency */,
+			);
+			name = "Post Tonal Theory CalculatorTests";
+			productName = "Post Tonal Theory CalculatorTests";
+			productReference = BB7165791B584E1400BF5D64 /* Post Tonal Theory CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB71655C1B584E1400BF5D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Adam Waller";
+				TargetAttributes = {
+					BB7165631B584E1400BF5D64 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = F68ZV39TL3;
+					};
+					BB7165781B584E1400BF5D64 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BB7165631B584E1400BF5D64;
+					};
+				};
+			};
+			buildConfigurationList = BB71655F1B584E1400BF5D64 /* Build configuration list for PBXProject "Post Tonal Theory Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB71655B1B584E1400BF5D64;
+			productRefGroup = BB7165651B584E1400BF5D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7165631B584E1400BF5D64 /* Post Tonal Theory Calculator */,
+				BB7165781B584E1400BF5D64 /* Post Tonal Theory CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7165621B584E1400BF5D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71656F1B584E1400BF5D64 /* Post Tonal Theory Calculator-Prefix.pch in Resources */,
+				BB7165741B584E1400BF5D64 /* LaunchScreen.xib in Resources */,
+				BB7165711B584E1400BF5D64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7165771B584E1400BF5D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7165601B584E1400BF5D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71658E1B587AFA00BF5D64 /* ANWSetCalculatorViewController.m in Sources */,
+				BB7165911B58833100BF5D64 /* ANWPitchClassView.m in Sources */,
+				BB317EA71B59630200F5379A /* ANWPCSet.m in Sources */,
+				BB71656D1B584E1400BF5D64 /* AppDelegate.m in Sources */,
+				BB71658B1B584F0C00BF5D64 /* ANWClockFaceView.m in Sources */,
+				BB71656A1B584E1400BF5D64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7165751B584E1400BF5D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7165801B584E1400BF5D64 /* Post_Tonal_Theory_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB71657B1B584E1400BF5D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7165631B584E1400BF5D64 /* Post Tonal Theory Calculator */;
+			targetProxy = BB71657A1B584E1400BF5D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB7165721B584E1400BF5D64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7165731B584E1400BF5D64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7165811B584E1400BF5D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB7165821B584E1400BF5D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7165841B584E1400BF5D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Post Tonal Theory Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BB7165851B584E1400BF5D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Post Tonal Theory Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BB7165871B584E1400BF5D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Post Tonal Theory CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Post Tonal Theory Calculator.app/Post Tonal Theory Calculator";
+			};
+			name = Debug;
+		};
+		BB7165881B584E1400BF5D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Post Tonal Theory CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Post Tonal Theory Calculator.app/Post Tonal Theory Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB71655F1B584E1400BF5D64 /* Build configuration list for PBXProject "Post Tonal Theory Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7165811B584E1400BF5D64 /* Debug */,
+				BB7165821B584E1400BF5D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7165831B584E1400BF5D64 /* Build configuration list for PBXNativeTarget "Post Tonal Theory Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7165841B584E1400BF5D64 /* Debug */,
+				BB7165851B584E1400BF5D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7165861B584E1400BF5D64 /* Build configuration list for PBXNativeTarget "Post Tonal Theory CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7165871B584E1400BF5D64 /* Debug */,
+				BB7165881B584E1400BF5D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB71655C1B584E1400BF5D64 /* Project object */;
+}
